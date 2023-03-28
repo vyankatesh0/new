@@ -1,0 +1,110 @@
+
+    /* Set the font family and font size for the whole page */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+    background-color: beige;
+}
+
+/* Style the navigation menu */
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+}
+
+header nav li {
+	display: inline-block;
+}
+
+header nav a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	background-color: #555;
+}
+
+/* Style the main content */
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #e6f1f9;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+	color: #1e6bb8;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #1e6bb8;
+}
+
+p {
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+blockquote {
+	font-style: italic;
+	color: #1e6bb8;
+	border-left: 5px solid #1e6bb8;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+	background-color: #1e6bb8;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+footer p {
+	margin: 0;
+}
+
+/* Define shades of blue color palette */
+:root {
+	--light-blue: #d0e9f6;
+	--medium-blue: #79bde7;
+	--dark-blue: #1e6bb8;
+}
+
+/* Use shades of blue color palette in various elements */
+main {
+	background-color: var(--light-blue);
+}
+
+h1, h2, footer {
+	color: var(--dark-blue);
+}
+
+header nav a:hover {
+	background-color: var(--medium-blue);
+}
+
+blockquote {
+	border-left-color: var(--medium-blue);
+	color: var(--medium-blue);
+}
+img {
+    width: 25%;
+    height: auto;
+}
